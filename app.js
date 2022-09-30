@@ -8,3 +8,11 @@ const linkBtns = [...document.querySelectorAll(".link-btn")];
 const submenu = document.querySelector(".submenu");
 const hero = document.querySelector(".hero");
 const nav = document.querySelector(".nav");
+
+toggleBtn.addEventListener("click", () => {
+  sidebarWrapper.classList.add("show");
+});
+
+closeBtn.addEventListener("click", () => {
+  sidebarWrapper.classList.remove("show");
+});
